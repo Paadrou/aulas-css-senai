@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilo Incorporado</title>
+    <style>
+        * {
+            margin: 0px 0px 0px 0px;
+            padding: 0px;
+        }
+
+        body {
+            background: #eee;
+        }
+
+        header {
+            background: #ccc;
+            margin: 10px 20px 5px 35px;
+            /* "externo/adjacente" top, direita, baixo, esquerda */
+        }
+
+        main {
+            background: #aaa;
+            padding: 15px 15px;
+            /* "espaçamento interno" 2 valores = top, baixo / esquerda direita */
+        }
+
+        main section article p {
+            color: #f08;
+        }
+
+        #primeiro-paragrafo {
+            color: #0ff;
+        }
+
+        .paragrafo-padrao-classe{
+            color: #ff0 ;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Título Pricipal</h1>
+    </header>
+    <main>
+        <h2>Titulo Secundario</h2>
+        <p id="primeiro-paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus officiis pariatur
+            ullam repellendus id sapiente rerum autem, laborum quod, quasi modi dolor eveniet debitis corporis sequi
+            sint consequatur numquam minima?</p>
+        <section>
+            <article>
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora, sunt, atque voluptates
+                    quo quidem aperiam culpa, minima facilis ipsum accusantium saepe. Et numquam neque eaque vero.
+                    Minus, temporibus molestiae!</p>
+                <p class="paragrafo-padrao-classe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora, sunt, atque voluptates
+                    quo quidem aperiam culpa, minima facilis ipsum accusantium saepe. Et numquam neque eaque vero.
+                    Minus, temporibus molestiae!</p>
+                <p class="paragrafo-padrao-classe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora, sunt, atque voluptates
+                    quo quidem aperiam culpa, minima facilis ipsum accusantium saepe. Et numquam neque eaque vero.
+                    Minus, temporibus molestiae!</p>
+                
+            </article>
+        </section>
+    </main>
+    <footer>
+        <address>&copy; Todos os direitos reservados </address>
+    </footer>
+</body>
+
+</html>
